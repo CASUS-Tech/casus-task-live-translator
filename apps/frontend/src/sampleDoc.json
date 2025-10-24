@@ -1,0 +1,89 @@
+{
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Mutual Non-Disclosure Agreement",
+      "styles": ["text-3xl", "font-semibold", "text-slate-900", "mb-4"]
+    },
+    {
+      "id": "p2",
+      "text": "This Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of {{EFFECTIVE_DATE}} between {{COMPANY_NAME}}, with a principal place of business at {{COMPANY_ADDRESS}}, and {{COUNTERPARTY_NAME}}.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p3",
+      "text": "1. Purpose",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p4",
+      "text": "The parties wish to explore a potential business relationship relating to enterprise AI translation services (the \"Purpose\") and, in connection with the Purpose, expect to disclose certain confidential information to each other.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p5",
+      "text": "2. Definition of Confidential Information",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p6",
+      "text": "\"Confidential Information\" means any data or information disclosed by either party, whether oral, written, electronic, or in any other form, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances surrounding disclosure.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p7",
+      "text": "3. Exclusions",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p8",
+      "text": "Confidential Information does not include information that (a) is or becomes publicly known through no breach of this Agreement; (b) was in the receiving party's lawful possession prior to disclosure; (c) is received from a third party without breach of any obligation; or (d) is independently developed by the receiving party without use of Confidential Information.",
+      "styles": ["text-base", "text-slate-700", "mb-4", "leading-relaxed"]
+    },
+    {
+      "id": "p9",
+      "text": "4. Obligations",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p10",
+      "text": "Each party agrees to (i) keep Confidential Information strictly confidential, (ii) use it solely for the Purpose, and (iii) disclose it only to employees and contractors who need to know and are bound by confidentiality obligations no less protective than those set forth herein.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p11",
+      "text": "5. Return or Destruction",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p12",
+      "text": "Upon written request, each party will promptly return or destroy all Confidential Information in its possession and certify such destruction in writing, except as required to comply with applicable law or internal backup policies.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p13",
+      "text": "6. Term",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p14",
+      "text": "This Agreement commences on {{EFFECTIVE_DATE}} and remains in effect for twelve (12) months, unless extended by mutual written agreement. The confidentiality obligations survive for three (3) years after termination.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p15",
+      "text": "7. Governing Law",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p16",
+      "text": "This Agreement is governed by the laws of the Canton of Zurich, Switzerland, without regard to its conflict of laws provisions.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p17",
+      "text": "IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.",
+      "styles": ["text-base", "text-slate-700", "mt-6"]
+    }
+  ]
+}
