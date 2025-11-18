@@ -13,7 +13,7 @@ Provided setup
 
 -   React + TypeScript frontend (minimal `App.tsx`).
 
--   Express + TypeScript backend exposing `/translate` with SSE headers, no logic.
+-   Express + TypeScript backend exposing `POST /translate` (JSON) and `POST /translate/stream` (SSE) with placeholder logic.
 
 -   Example document in `apps/frontend/src/sampleDoc.json` containing a few paragraphs with Tailwind class names.
 
@@ -40,7 +40,7 @@ Run locally
 pnpm dev`
 
 Frontend: <http://localhost:5173>\
-Backend: <http://localhost:3000>
+Backend: <http://localhost:3000> (`POST /translate` returns JSON; use `POST /translate/stream` for SSE — requires `fetch`/ReadableStream since EventSource cannot send a body.)
 
 Add `OPENAI_API_KEY` to `apps/backend/.env`.
 
