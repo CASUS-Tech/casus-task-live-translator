@@ -24,3 +24,7 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 *.swp
+
+# Internal evaluation artifacts (not for candidate repos)
+README.product-eval.md
+docs/interviewer-scorecard.md

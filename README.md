@@ -1,53 +1,59 @@
-Casus --- Live Document Translator (90 min)
+Casus - Live Document Translator (90 min)
 =========================================
 
-Goal
-----
+Problem
+-------
 
-Build a small full-stack prototype that translates a short document into another language and updates the text live as translations arrive.
+Users lose trust in translation tools when updates are slow, inconsistent, or fail without clear feedback.
 
-* * * * *
-
-Provided setup
---------------
-
--   React + TypeScript frontend (minimal `App.tsx`).
-
--   Express + TypeScript backend exposing `POST /translate` (JSON) and `POST /translate/stream` (SSE) with placeholder logic.
-
--   Example document in `apps/frontend/src/sampleDoc.json` containing a few paragraphs with Tailwind class names.
-
-Everything runs with **Node 24** and **pnpm**.
+Your goal is to ship the smallest end-to-end improvement that increases trust in a live document translation experience.
 
 * * * * *
 
-Task
-----
+What exists
+-----------
 
-Render the sample document on the page and let the user select a target language.\
-Use the **OpenAI Node SDK** for translations.\
-Keep the UI responsive, show progress or feedback while translations stream in.
-Try to preserve the document structure as much as you can, including placeholders ({{TOKEN}}), legal citations (“Art. 337 CO”), numbers, and URLs.
+The repository contains a minimal full-stack starting point and a sample document at `apps/frontend/src/sampleDoc.json`.
 
-Handle failures gracefully and continue streaming.
+You are free to choose your implementation approach.
+
+* * * * *
+
+Requirements
+------------
+
+1. Render and translate the sample document into a user-selected target language.
+2. Show live progress so the user can understand what is happening.
+3. Preserve placeholders (`{{TOKEN}}`), legal references, numbers, and URLs.
+4. Handle partial failures gracefully and keep the flow usable.
+5. Keep the implementation maintainable enough for a teammate to continue.
+
+* * * * *
+
+Deliverables
+------------
+
+1. A working implementation in this repository.
+2. A short `DECISIONS.md` covering:
+   - What you prioritized.
+   - What you intentionally skipped.
+   - Key tradeoffs and risks.
 
 * * * * *
 
 Run locally
 -----------
 
-`pnpm i
-pnpm dev`
+```bash
+pnpm i
+pnpm dev
+```
 
-Frontend: <http://localhost:5173>\
-Backend: <http://localhost:3000> (`POST /translate` returns JSON; use `POST /translate/stream` for SSE — requires `fetch`/ReadableStream since EventSource cannot send a body.)
-
-Add `OPENAI_API_KEY` to `apps/backend/.env`.
+Use `apps/backend/.env` for required runtime secrets.
 
 * * * * *
 
 Timebox
 -------
 
-You have **90 minutes**.\
-Focus on a working end-to-end translation flow with live updates and clear progress.
+You have 90 minutes. Prioritize user impact and clear tradeoffs over breadth.
