@@ -1,0 +1,30 @@
+# Design Tokens
+
+```css
+:root {
+  /* Typography */
+  --font-ui: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Crimson Pro", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Core colors */
+  --color-canvas: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f8fafc;
+  --color-surface-alt-2: #f9f9f7;
+
+  --color-text-primary: #0f172a;
+  --color-text-body: #1e293b;
+  --color-text-muted: #94a3b8;
+
+  --color-border: #cbd5e1;
+
+  --color-accent: #ea580c;
+  --color-accent-hover: #c2410c;
+}
+```
+
+## Font Source
+
+`https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;600;700&display=swap`

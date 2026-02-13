@@ -2,12 +2,12 @@
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Mutual Non-Disclosure Agreement",
+      "text": "Mutual Non-Disclosure and Data Processing Addendum",
       "styles": ["text-3xl", "font-semibold", "text-slate-900", "mb-4"]
     },
     {
       "id": "p2",
-      "text": "This Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of {{EFFECTIVE_DATE}} between {{COMPANY_NAME}}, with a principal place of business at {{COMPANY_ADDRESS}}, and {{COUNTERPARTY_NAME}}.",
+      "text": "This Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of {{EFFECTIVE_DATE}} between {{COMPANY_NAME}}, with its principal place of business at {{COMPANY_ADDRESS}}, and {{COUNTERPARTY_NAME}}. The Effective Date may be recorded internally as 2026-01-15.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
@@ -17,72 +17,132 @@
     },
     {
       "id": "p4",
-      "text": "The parties wish to explore a potential business relationship relating to enterprise AI translation services (the \"Purpose\") and, in connection with the Purpose, expect to disclose certain confidential information to each other.",
+      "text": "The parties wish to evaluate a potential relationship relating to enterprise AI translation services (the \"Purpose\") and, in connection with the Purpose, expect to disclose confidential information. Public marketing materials remain available at {{WEBSITE_URL}}.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p5",
-      "text": "2. Definition of Confidential Information",
+      "text": "2. Definitions",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p6",
-      "text": "\"Confidential Information\" means any data or information disclosed by either party, whether oral, written, electronic, or in any other form, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances surrounding disclosure.",
+      "text": "\"Confidential Information\" means any information disclosed by either party, whether oral, written, electronic, visual, or machine-readable, that is marked confidential or should reasonably be treated as confidential. \"Personal Data\" has the meaning given in Art. 4(1) GDPR.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p7",
-      "text": "3. Exclusions",
+      "text": "3. Scope of Protected Materials",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p8",
-      "text": "Confidential Information does not include information that (a) is or becomes publicly known through no breach of this Agreement; (b) was in the receiving party's lawful possession prior to disclosure; (c) is received from a third party without breach of any obligation; or (d) is independently developed by the receiving party without use of Confidential Information.",
+      "text": "Protected materials include source code, model prompts, architecture diagrams, customer lists, pricing schedules, data-room exports (Ref: {{DATA_ROOM_ID}}), and any attachments labeled \"Client Secret - Level 3\". References to docket {{CASE_REF_NO}} are deemed confidential even if partially redacted.",
       "styles": ["text-base", "text-slate-700", "mb-4", "leading-relaxed"]
     },
     {
       "id": "p9",
-      "text": "4. Obligations",
+      "text": "4. Exclusions",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p10",
-      "text": "Each party agrees to (i) keep Confidential Information strictly confidential, (ii) use it solely for the Purpose, and (iii) disclose it only to employees and contractors who need to know and are bound by confidentiality obligations no less protective than those set forth herein.",
+      "text": "Confidential Information excludes information that (a) is publicly available without breach of this Agreement; (b) was lawfully known prior to disclosure; (c) is independently developed; or (d) is received from a third party without restriction. The burden of proof lies with the receiving party.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p11",
-      "text": "5. Return or Destruction",
+      "text": "5. Obligations of Receiving Party",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p12",
-      "text": "Upon written request, each party will promptly return or destroy all Confidential Information in its possession and certify such destruction in writing, except as required to comply with applicable law or internal backup policies.",
+      "text": "The receiving party shall (i) use Confidential Information only for the Purpose, (ii) restrict access to personnel with a need to know, (iii) apply safeguards no less protective than those used for its own trade secrets, and (iv) not reverse engineer deliverables except where prohibited by mandatory law.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p13",
-      "text": "6. Term",
+      "text": "6. Mandatory Legal Disclosures",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p14",
-      "text": "This Agreement commences on {{EFFECTIVE_DATE}} and remains in effect for twelve (12) months, unless extended by mutual written agreement. The confidentiality obligations survive for three (3) years after termination.",
+      "text": "If disclosure is required by law, court order, or regulator request, the receiving party shall provide prompt written notice to {{NOTICE_EMAIL}} before disclosure where legally permitted. Nothing in this Agreement limits obligations under Art. 337 CO, § 203 StGB, or applicable whistleblower protections.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p15",
-      "text": "7. Governing Law",
+      "text": "7. Security Standards",
       "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
     },
     {
       "id": "p16",
-      "text": "This Agreement is governed by the laws of the Canton of Zurich, Switzerland, without regard to its conflict of laws provisions.",
+      "text": "At minimum, each party will maintain encryption in transit (TLS 1.2+), encryption at rest (AES-256 or equivalent), and role-based access controls. Certifications may include ISO/IEC 27001:2022 and SOC 2 Type II. Security documentation is available at https://trust.example.com/security.",
       "styles": ["text-base", "text-slate-700", "mb-4"]
     },
     {
       "id": "p17",
-      "text": "IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.",
+      "text": "8. Incident Notification and Mitigation",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p18",
+      "text": "Each party shall notify the other without undue delay, and in any event within twenty-four (24) hours, after becoming aware of a confirmed unauthorized disclosure. Status updates should be posted to https://status.example.com and sent to {{SECURITY_CONTACT_EMAIL}}.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p19",
+      "text": "9. Data Retention, Return, and Destruction",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p20",
+      "text": "Upon termination, the receiving party shall return or securely destroy all Confidential Information within thirty (30) days and certify destruction in writing by 15/02/2027. Backups created before termination may be retained for up to ninety (90) days for disaster-recovery purposes only.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p21",
+      "text": "10. Term and Survival",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p22",
+      "text": "This Agreement starts on {{EFFECTIVE_DATE}} and continues for twelve (12) months unless terminated earlier by thirty (30) days written notice. Confidentiality obligations survive for five (5) years after termination, except trade secrets which survive as long as protected by law.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p23",
+      "text": "11. Fees, Liability Cap, and Liquidated Damages",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p24",
+      "text": "The annual pilot fee is CHF 48,500.00 (excluding VAT). Aggregate liability is capped at the greater of CHF 250,000.00 or 125% of fees paid in the preceding twelve (12) months. For proven intentional breach of token integrity (e.g., replacing {{LEGAL_ENTITY_ID}}), liquidated damages of CHF 25,000.00 apply per incident.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p25",
+      "text": "12. Governing Law and Dispute Resolution",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p26",
+      "text": "This Agreement is governed by Swiss law, excluding conflict-of-law principles. Any dispute not resolved within 30 days will be submitted to arbitration under the Swiss Rules, seat Zurich, language English. For injunctive relief, either party may seek interim measures under Art. 261 CPC.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p27",
+      "text": "13. Notices and Contacts",
+      "styles": ["text-2xl", "font-semibold", "text-slate-900", "mt-6", "mb-2"]
+    },
+    {
+      "id": "p28",
+      "text": "All legal notices must be sent to {{NOTICE_EMAIL}} with copy to legal@{{COMPANY_DOMAIN}}. Data protection matters must be sent to {{DPO_EMAIL}}. Commercial questions may be submitted via https://www.example.com/contact?ref={{CASE_REF_NO}}.",
+      "styles": ["text-base", "text-slate-700", "mb-4"]
+    },
+    {
+      "id": "p29",
+      "text": "IN WITNESS WHEREOF, the parties execute this Agreement on {{SIGNATURE_DATE_ISO}} (ISO) / {{SIGNATURE_DATE_LOCAL}} (local format). Signatory A: {{SIGNATORY_NAME_A}}. Signatory B: {{SIGNATORY_NAME_B}}.",
       "styles": ["text-base", "text-slate-700", "mt-6"]
     }
   ]
