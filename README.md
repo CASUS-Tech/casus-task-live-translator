@@ -6,7 +6,9 @@ Problem
 
 Users lose trust in translation tools when updates are slow, inconsistent, or fail without clear feedback.
 
-Your goal is to ship the smallest end-to-end improvement that increases trust in a live document translation experience.
+Your goal is to ship an MVP of this feature: the smallest end-to-end version of a live document translation experience that clearly improves user trust.
+
+Be explicit about MVP scope. Focus on a thin, reliable flow that works well for the provided sample document, with clear progress and graceful handling of partial failures.
 
 * * * * *
 
